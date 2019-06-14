@@ -207,7 +207,7 @@ Data Plot:
 What's in the files?
 1. The code for the all the models, of course.
 2. The models as *.h5* files. They can be restored as follows:
-'model = load_model('my_model.h5')'
+<br>`model = load_model('my_model.h5')`
 3. The resulted tables in CSV files.
 
 Contributes are welcome!
