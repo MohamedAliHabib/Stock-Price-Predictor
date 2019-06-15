@@ -35,7 +35,7 @@ Here are the steps of training and testing the Stock Price Predictor:
 * __Model 6:__ Save **2000** input samples **(50% training, 50% testing)**
 
 
-<br> **Models trained on data that is split into training and testing sets (no validation)**
+<br> **Models trained on data that is split into training, testing and validation sets**
 
 * __Model 1:__ Save **100** input samples from the last part of the data. **(70% training data, 15% validation data,15% testing data)**
 * __Model 2:__ Save **100** input samples. **(50% training, 25% validation, 25% testing)**
