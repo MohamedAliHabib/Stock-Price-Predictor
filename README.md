@@ -3,11 +3,16 @@ Building an LSTM Recurrent Neural Network for predicting stock market prices. Ap
 * Daily prices of **Natural gas**, starting from January 1997 to 2018. [link](https://datahub.io/core/natural-gas)
 * Daily prices of **AMD** stock market, starting from 2009 to 2018. [link](https://www.kaggle.com/gunhee/amdgoogle)
 * Daily prices of **Google** stock market, starting from 2009 to 2018. [link](https://www.kaggle.com/gunhee/amdgoogle)
-
-**Important Note:** If Github viewer can't load the Jupyter Noteooks, then you can use [nbviewer](https://nbviewer.jupyter.org/) to view the notebooks without having to download them. Just copy the link to the notebook that you want to view, go to nbviewer, paste the link there, and click Go! 
+ 
 
 # Getting Started
-Here are the steps of training and testing the Stock Price Predictor:
+
+## How to view the files
+There are two copies of every notebook in this repository. The small size version of the notebook contains the same content found in the large except some figures that made the other notebook size this large, these figures represent the performance (real prices vs. predictions) of every model on the testing data. In case you want to see these figures, they are available in the other large version of the notebooks. If you want to view files, view the small version because the other copy is too large to be viewed using GitHub, so you can download them and view them using Jupyter Notebook.
+
+**Important Note:** If Github viewer can't load the Jupyter Noteooks, then you can use [nbviewer](https://nbviewer.jupyter.org/) to view the notebooks without having to download them. Just copy the link to the notebook that you want to view, go to nbviewer, paste the link there, and click Go!
+
+### Here are the steps of training and testing the Stock Price Predictor:
 ## Data Preprocessing
 * Extracting samples (sequences of days that we want to predict their prices) from the last part of the data to use it later for testing the reuslted model. Then, the rest of the data will be used for training and testing the model.
 * Scaling the data in the range (0,1).
