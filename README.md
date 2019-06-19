@@ -8,7 +8,7 @@ Building an LSTM Recurrent Neural Network for predicting stock market prices. Ap
 # Getting Started
 
 ## How to view the files
-There are two copies of every notebook in this repository. The small size version of the notebook contains the same content found in the large except some figures that made the other notebook size this large, these figures represent the performance (real prices vs. predictions) of every model on the testing data. In case you want to see these figures, they are available in the other large version of the notebooks. If you want to view files, view the small version because the other copy is too large to be viewed using GitHub, so you can download them and view them using Jupyter Notebook.
+There are two copies of every notebook in this repository. The small size version of the notebook contains the same content found in the large except some figures that made the other notebook size this large, these figures represent the performance (real prices vs. predictions) of every model on the testing data. In case you want to see these figures, they are available in the other large version of the notebooks. If you want to view files, view the small version because the other copy is too large to be viewed using GitHub or [nbviewer](https://nbviewer.jupyter.org/), therefore you can download them and view them using Jupyter Notebook.
 
 **Important Note:** If Github viewer can't load the Jupyter Noteooks, then you can use [nbviewer](https://nbviewer.jupyter.org/) to view the notebooks without having to download them. Just copy the link to the notebook that you want to view, go to nbviewer, paste the link there, and click Go!
 
