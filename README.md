@@ -82,18 +82,20 @@ Data Plot:
 
 ![Performance on Last 100 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Natural%20Gas%20Prices/Predicting%20Natural%20Gas%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_100_days.png)
 
+**Note:** Here we can take all models into consideration when testing on the last 100 days because they all haven't seen the last 100 days in neither training nor testing.
+
 **On Last 1000 Days:**
 
 ![Performance on Last 1000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Natural%20Gas%20Prices/Predicting%20Natural%20Gas%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_1000_days.png)
 
-**Note:** Of course, when we want to test on the last 1000 days we should take into consideration only the models in which the last 1000 days are extracted earlier (in this case, they are Model 3 & Model 4), but since Model 5 & 6 have the last 2000 days extracted out from it, so we can compare its performance against the other two (Model 1 & 2 cannot be taken into consideration because they used 900 days out of the last 1000 days in training or testing, which means they have seen these days before).
+**Note:** Of course, when we want to test on the last 1000 days we should take only into consideration the models in which the last 1000 days are extracted earlier (in this case, they are Model 3 & Model 4), but since Model 5 & 6 have the last 2000 days extracted out from them, but we can't compare their performance against the other two (Model 1 & 2 cannot be taken into consideration because they used 900 days out of the last 1000 days in either training or testing, which means they have seen these days before).
 
 
 **On Last 2000 Days:**
 
 ![Performance on Last 2000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Natural%20Gas%20Prices/Predicting%20Natural%20Gas%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_2000_days.png)
 
-**Note:** Here we will only consider the models in which the last 2000 days are extracted from it (we can't compare it against other models because they have seen this data before).
+**Note:** Here we will only consider the models in which the last 2000 days are extracted from (though, we can't compare them against other models because they have seen this data before).
 
 ### Performance of models that have been trained on data that is split into training, testing and validation sets.
 
@@ -105,19 +107,19 @@ Data Plot:
 
 ![Performance on Last 100 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Natural%20Gas%20Prices/Predicting%20Natural%20Gas%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_100_days.png)
 
-**Note:** Remember, here all the models are taken into consideration when comparing the perforamnce because they all haven't seen the last 100 days.
+**Note:** Remember, here all the models are taken into consideration when comparing the performance because they all haven't seen the last 100 days.
 
 **On Last 1000 Days:**
 
 ![Performance on Last 1000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Natural%20Gas%20Prices/Predicting%20Natural%20Gas%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_1000_days.png)
 
-**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 1000 days.
+**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 1000 days.
 
 **On Last 2000 Days:**
 
 ![Performance on Last 2000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Natural%20Gas%20Prices/Predicting%20Natural%20Gas%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_2000_days.png)
 
-**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 2000 days.
+**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 2000 days.
 
 ### Effect of Using a Validation Set on Performance
 **Using Natural Gas Prices Dataset**
@@ -140,19 +142,19 @@ Data Plot:
 
 ![Performance on Last 100 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/AMD%20Stock%20Prices/Predicting%20AMD%20Stock%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_100_days.png)
 
-**Note:** Remember, here all the models are taken into consideration when comparing the perforamnce because they all haven't seen the last 100 days.
+**Note:** Remember, here all the models are taken into consideration when comparing the performance because they all haven't seen the last 100 days.
 
 **On Last 1000 Days:**
 
 ![Performance on Last 1000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/AMD%20Stock%20Prices/Predicting%20AMD%20Stock%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_1000_days.png)
 
-**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 1000 days.
+**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 1000 days.
 
 **On Last 2000 Days:**
 
 ![Performance on Last 2000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/AMD%20Stock%20Prices/Predicting%20AMD%20Stock%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_2000_days.png)
 
-**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 2000 days.
+**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 2000 days.
 
 ### Performance of models that have been trained on data that is split into training, testing and validation sets.
 
@@ -164,19 +166,19 @@ Data Plot:
 
 ![Performance on Last 100 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/AMD%20Stock%20Prices/Predicting%20AMD%20Stock%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_100_days.png)
 
-**Note:** Remember, here all the models are taken into consideration when comparing the perforamnce because they all haven't seen the last 100 days.
+**Note:** Remember, here all the models are taken into consideration when comparing the performance because they all haven't seen the last 100 days.
 
 **On Last 1000 Days:**
 
 ![Performance on Last 1000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/AMD%20Stock%20Prices/Predicting%20AMD%20Stock%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_1000_days.png)
 
-**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 1000 days.
+**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 1000 days.
 
 **On Last 2000 Days:**
 
 ![Performance on Last 2000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/AMD%20Stock%20Prices/Predicting%20AMD%20Stock%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_2000_days.png)
 
-**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 2000 days.
+**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 2000 days.
 
 ### Effect of Using a Validation Set on Performance
 **Using AMD Stock Market Prices Dataset**
@@ -198,19 +200,19 @@ Data Plot:
 
 ![Performance on Last 100 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Google%20Stock%20Prices/Predicting%20Google%20Stock%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_100_days.png)
 
-**Note:** Remember, here all the models are taken into consideration when comparing the perforamnce because they all haven't seen the last 100 days.
+**Note:** Remember, here all the models are taken into consideration when comparing the performance because they all haven't seen the last 100 days.
 
 **On Last 1000 Days:**
 
 ![Performance on Last 1000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Google%20Stock%20Prices/Predicting%20Google%20Stock%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_1000_days.png)
 
-**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 1000 days.
+**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 1000 days.
 
 **On Last 2000 Days:**
 
 ![Performance on Last 2000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Google%20Stock%20Prices/Predicting%20Google%20Stock%20Prices%20-%20(Training%20and%20Testing%20Sets%2C%20With%20No%20Validation)/comparing_performance_of_models_on_last_2000_days.png)
 
-**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 2000 days.
+**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 2000 days.
 
 ### Performance of models that have been trained on data that is split into training, testing and validation sets.
 
@@ -222,19 +224,19 @@ Data Plot:
 
 ![Performance on Last 100 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Google%20Stock%20Prices/Predicting%20Google%20Stock%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_100_days.png)
 
-**Note:** Remember, here all the models are taken into consideration when comparing the perforamnce because they all haven't seen the last 100 days.
+**Note:** Remember, here all the models are taken into consideration when comparing the performance because they all haven't seen the last 100 days.
 
 **On Last 1000 Days:**
 
 ![Performance on Last 1000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Google%20Stock%20Prices/Predicting%20Google%20Stock%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_1000_days.png)
 
-**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 1000 days.
+**Note:** Remember, only models (3 & 4 & 5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 1000 days.
 
 **On Last 2000 Days:**
 
 ![Performance on Last 2000 Days](https://github.com/MohamedAliHabib/Stock-Price-Predictor/blob/master/Google%20Stock%20Prices/Predicting%20Google%20Stock%20Prices%20-%20(Training%2C%20Testing%20and%20Validation%20Sets)/comparing_performance_of_models_on_last_2000_days.png)
 
-**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the perforamnce because they all haven't seen the last 2000 days.
+**Note:** Remember, only models (5 & 6) are taken into consideration when comparing the performance because they all haven't seen the last 2000 days.
 
 ### Effect of Using a Validation Set on Performance
 **Using Google Stock Market Prices Dataset**
